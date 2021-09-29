@@ -3,8 +3,9 @@ import { useSpring, animated } from 'react-spring';
 import styled from 'styled-components';
 
 const Hero = styled.div`
-  font-size: 8.9vmax;
+  font-size: 8.5vmax;
   line-height: 1;
+  cursor: default;
 `;
 
 export default function HeroTitle() {
@@ -25,6 +26,9 @@ export default function HeroTitle() {
           <span>Honorato</span>
         </Hero>
       </animated.div>
+      <span className="pt-10">
+        <p class="font-sans text-center">Web development.</p>
+      </span>
     </div>
   );
 }
