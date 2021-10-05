@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
 import styled from 'styled-components';
+import { Link } from 'react-scroll';
 
 const Hero = styled.div`
   font-size: 8.5vmax;
@@ -26,8 +27,22 @@ export default function HeroTitle() {
           <span>Honorato</span>
         </Hero>
       </animated.div>
-      <span className="pt-10">
-        <p class="font-sans text-center">Web development.</p>
+      <span className="py-10">
+        <p className="font-sans text-center">Web development.</p>
+      </span>
+      <span className="transition duration-500 ease-in-out hover:text-black text-gray-400 justify-self-center  animate-bounce cursor-pointer">
+        <Link to="personal" spy={true} smooth={true}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            onClick={() => console.log('ASDASD')}
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+          </svg>
+        </Link>
       </span>
     </div>
   );
