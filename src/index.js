@@ -5,12 +5,16 @@ import App from './App';
 import store from './store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
+import { ParallaxProvider } from 'react-scroll-parallax';
+
 import './i18n';
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <ParallaxProvider>
+        <App />
+      </ParallaxProvider>
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')

@@ -1,31 +1,28 @@
 import React from 'react';
 import styled from 'styled-components';
-import profile from '../../../../assets/images/Profile-2.jpg'
-
-const Title = styled.div`
-  font-size: 6vmax;
-  text-align: center;
-  cursor: default;
-`;
+import profile from '../../../../assets/images/Profile.jpg';
 
 function Personal() {
   return (
-    <div className="h-screen flex flex-col " id="personal">
-      {/* <div className="py-10 flex flex-row justify-center">
-        <Title>
-          <span>hello</span>
-        </Title>
-        <Title className="pl-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-red-600 to-yellow-400">
-          <span>world</span>
-        </Title>
-      </div> */}
-      <div className="flex flex-col sm:flex-row overflow-hidden h-full">
-        <div className="sm:w-1/2 sm:h-full h-1/2 w-full">
-          <img src={profile} alt="Basically me" className="h-full w-full object-cover" />
-        </div>
-        <div className="sm:w-1/2 sm:h-full h-1/2 w-full">
-          <span>DESCRIPTION</span>
-        </div>
+    <div className="h-screen flex flex-col sm:flex-row overflow-hidden" id="personal">
+      <div className="sm:w-1/3 w-screen sm:h-screen h-1/2 overflow-hidden">
+        <img
+          src={profile}
+          alt="Me, talking on the phone with my mother sitting on a step (In Lisbon)"
+          className="sm:h-screen h-full w-full object-cover"
+        />
+      </div>
+      <div className="sm:w-2/3 w-screen sm:h-screen h-1/2 text-center flex flex-col justify-center">
+        <p className="p-6 text-4xl ">Basically, me</p>
+        <p className="px-20 py-6">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa ipsum, tincidunt eget ligula eget, tempor
+          iaculis ex. Sed sed turpis vitae nisl mollis aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Etiam maximus, velit ac hendrerit sodales, enim augue scelerisque nibh, ac vulputate lacus velit nec lectus.
+          Duis id sem sapien. Donec rhoncus risus auctor, commodo neque eget, tristique magna. Vivamus in diam blandit
+          ipsum efficitur egestas. Aenean ut maximus augue. Sed vitae imperdiet nisl. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit.
+        </p>
+        <p className="p-6 font-semibold">enjoy.</p>
       </div>
     </div>
   );
