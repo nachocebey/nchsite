@@ -1,12 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function TimeElementBody(props) {
+  const [componentView, setComponentView] = useState(false);
   return (
     <>
-      {!props.componentView ? (
-        <div className="transition-all cursor-pointer flex flex-col rounded-lg shadow-md hover:shadow-2xl bg-white px-4 py-5">{props.elementContent}</div>
+      {!componentView ? (
+        <div
+          className="cursor-pointer flex flex-col  bg-white"
+          onClick={() => setComponentView(!componentView)}
+        >
+          {props.elementContent}
+        </div>
       ) : (
-        <div className="transition-all cursor-pointer flex flex-col rounded-lg shadow-md hover:shadow-2xl bg-white px-4 py-5">{props.elementContentExtended}</div>
+        <div
+          className="cursor-pointer flex flex-col bg-white"
+          onClick={() => setComponentView(!componentView)}
+        >
+          {props.elementContentExtended}
+        </div>
       )}
     </>
   );

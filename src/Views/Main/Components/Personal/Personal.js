@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import profile from '../../../../assets/images/Profile.jpg';
 import ScrollButton from '../ScrollButton/ScrollButton';
 

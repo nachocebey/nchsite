@@ -1,35 +1,35 @@
-import React, { useState } from 'react';
+import React from 'react';
 import TimeElementBody from './TimeElementBody';
 
+
 export default function TimeElement(props) {
-  const [componentView, setComponentView] = useState(false);
 
   return (
-    <div className={`flex flex-row w-full`}>
-      <div onClick={() => setComponentView(!componentView)} className="w-5/12 px-2 py-10">
+    <div className={`flex flex-row flex-grow w-full`}>
+      <div data-aos="fade-right" className="w-5/12 px-2 my-8 self-center">
         {props.direction === 'left' ? (
           <TimeElementBody
             elementContent={props.elementContent}
             elementContentExtended={props.elementContentExtended}
-            componentView={componentView}
           />
         ) : null}
       </div>
       <div className="w-2/12 flex justify-center">
-        <div className={`shadow relative flex h-full w-1 ${props.lineColor} items-center justify-center`}>
+        <div className={`relative flex w-1 ${props.lineColor} items-center justify-center`}>
           <div
-            className={`shadow-md absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 ${props.chipColor} leading-none text-center z-10 bg-white font-thin`}
+            className={`absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 ${props.chipColor} leading-none text-center z-10 bg-white font-thin`}
           >
-            <div>{`${props.chipDate}`}</div>
+            <div>
+              <p className="text-3xl">{`${props.chipDate}`}</p>
+            </div>
           </div>
         </div>
       </div>
-      <div onClick={() => setComponentView(!componentView)} className="w-5/12 px-2 py-10">
+      <div data-aos="fade-left" className="w-5/12 px-2 self-center">
         {props.direction === 'right' ? (
           <TimeElementBody
             elementContent={props.elementContent}
             elementContentExtended={props.elementContentExtended}
-            componentView={componentView}
           />
         ) : null}
       </div>

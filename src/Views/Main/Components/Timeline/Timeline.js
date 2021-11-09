@@ -4,47 +4,47 @@ import { TimeEscolaPia, TimeEscolaPiaExtended } from './TimeEscolaPia';
 
 export default function Timeline() {
   return (
-    <div className="min-h-screen flex justify-center" id="timeline">
-      <div className="w-4/5 mx-auto">
+    <div className="min-h-screen flex justify-center items-center" id="timeline">
+      <div className="w-4/5 flex flex-col mx-auto">
         <TimeElement
-          name="Escola Pia"
-          date="20 Nov- 30 Nov"
+          name="Escola Pia Mataró"
+          date="2017 - 2019"
           direction="left"
-          lineColor="bg-blue-300"
+          lineColor="bg-gray-400"
           elementContent={TimeEscolaPia}
           elementContentExtended={TimeEscolaPiaExtended}
-          chipColor="border-red-300"
-          chipDate="20 September"
+          chipColor="border-gray-400"
+          chipDate="2017"
         />
         <TimeElement
-          name="Escola Pia"
-          date="20 Nov- 30 Nov"
-          direction="right"
-          lineColor="bg-blue-300"
+          name="Escola Pia Mataró"
+          date="2017 - 2019"
+          direction="left"
+          lineColor="bg-gray-400"
           elementContent={TimeEscolaPia}
           elementContentExtended={TimeEscolaPiaExtended}
-          chipColor="border-red-300"
-          chipDate="20 September"
+          chipColor="border-gray-400"
+          chipDate="2017"
         />
         <TimeElement
-          name="Escola Pia"
-          date="20 Nov- 30 Nov"
+          name="Escola Pia Mataró"
+          date="2017 - 2019"
           direction="left"
-          lineColor="bg-blue-300"
+          lineColor="bg-gray-400"
           elementContent={TimeEscolaPia}
           elementContentExtended={TimeEscolaPiaExtended}
-          chipColor="border-red-300"
-          chipDate="20 September"
+          chipColor="border-gray-400"
+          chipDate="2017"
         />
         <TimeElement
-          name="Escola Pia"
-          date="20 Nov- 30 Nov"
+          name="Escola Pia Mataró"
+          date="2017 - 2019"
           direction="left"
-          lineColor="bg-blue-300"
+          lineColor="bg-gray-400"
           elementContent={TimeEscolaPia}
           elementContentExtended={TimeEscolaPiaExtended}
-          chipColor="border-red-300"
-          chipDate="20 September"
+          chipColor="border-gray-400"
+          chipDate="2017"
         />
       </div>
     </div>
