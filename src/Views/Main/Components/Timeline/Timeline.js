@@ -1,6 +1,7 @@
 import React from 'react';
 import TimeElement from './TimeElement';
 import { TimeEscolaPia, TimeEscolaPiaExtended } from './TimeEscolaPia';
+import { TimePasiona, TimePasionaExtended } from './TimePasiona';
 
 export default function Timeline() {
   return (
@@ -21,8 +22,8 @@ export default function Timeline() {
           date="2017 - 2019"
           direction="left"
           lineColor="bg-gray-400"
-          elementContent={TimeEscolaPia}
-          elementContentExtended={TimeEscolaPiaExtended}
+          elementContent={TimePasiona}
+          elementContentExtended={TimePasionaExtended}
           chipColor="border-gray-400"
           chipDate="2017"
         />

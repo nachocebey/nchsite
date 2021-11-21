@@ -1,12 +1,12 @@
-export const TimeEscolaPia = (
-  <div className="text-white rounded-lg px-4 py-5 bg-gradient-to-r from-green-600 to-green-400 shadow-md hover:shadow-2xl">
-    <p className="text-3xl">Escola Pia Santa Anna Mataró</p>
-    <p className="font-light">DAM - Diseño de aplicaciones muti-plataforma (Formación)</p>
+export const TimePasiona = (
+  <div className="text-white rounded-lg px-4 py-5 bg-gradient-to-r from-yellow-600 to-yellow-400 shadow-md hover:shadow-2xl">
+    <p className="text-3xl">Pasiona Consulting</p>
+    <p className="font-light">Front-end Developer</p>
     <p className="">2017 - 2019</p>
   </div>
 );
-export const TimeEscolaPiaExtended = (
-  <div className="z-40 text-gray-600 shadow-md hover:shadow-2xl my-4 p-5 bg-gradient-to-r from-green-100 to-green-50">
+export const TimePasionaExtended = (
+  <div className="z-40 text-gray-600 shadow-md hover:shadow-2xl my-4 p-5 bg-gradient-to-r from-yellow-100 to-yellow-50">
     <p className="text-3xl">Escola Pia Santa Anna Mataró</p>
     <p className="font-light">DAM - Diseño de aplicaciones muti-plataforma</p>
     <p className="pb-3">2017 - 2019</p>
