@@ -1,0 +1,12 @@
+{
+  "tm_name": "Escola Pia",
+  "tm_name_extended": "Escola Pia Santa Anna Mataró",
+  "tm_rol": "DAM - Diseño de aplicaciones multiplataforma (Formación)",
+  "tm_date": "05/2017 - 06/2019",
+  "tm_description": "El inicio de mi carrera como programador, por aquel entonces no conocía lo que era el mundo de la programación, pero siempre quise entenderlo.Durante este curso aprendí la gran mayoría de los conceptos básicos que se utilizan día a día en el desarrollo de aplicaciones, además de empezar a desarrollar la \"mentalidad de programador\".",
+  "tm_technical_level": "A nivel técnico:",
+  "tm_technical_it_info": "Sistemas informáticos: El funcionamiento de los ordenadores y los sistemas operativos",
+  "tm_technical_bbdd_info": "Bases de datos: La planificación y  gestión de bases de datos con SQL / Mongo DB",
+  "tm_technical_programming_info": "Programación: Introducción a la programación con Java / C#",
+  "tm_technical_xml_info": "Lenguajes de marcas y sistemas de gestión de información: introducción al desarrollo web (HTML/CSS/JS) y a XML. "
+}

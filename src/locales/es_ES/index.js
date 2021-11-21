@@ -1,7 +1,5 @@
-import Navbar from './Navbar.json';
-import SimpleDescription from './SimpleDescription.json';
+import EscolaPia from './EscolaPia.json';
 const translations = {
-  Navbar: Navbar,
-  SimpleDescription: SimpleDescription,
+  TimelineEP: EscolaPia,
 };
 export default translations;

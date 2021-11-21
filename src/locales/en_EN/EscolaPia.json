@@ -1,0 +1,12 @@
+{
+  "tm_name": "Escola Pia",
+  "tm_name_extended": "Escola Pia Santa Anna Mataró",
+  "tm_rol": "DAM - Multi-platform Application Development (Education)",
+  "tm_date": "05/2017 - 06/2019",
+  "tm_description": "The beginning of my career as a programmer, at that time I did not know what the world of programming was, but I always wanted to understand it.During this course I learned the vast majority of the basic concepts that are used every day in application development, in addition to beginning to develop the \"programmer mindset\".",
+  "tm_technical_level": "On a technical level:",
+  "tm_technical_it_info": "Computer systems: The functioning of computers and operating systems",
+  "tm_technical_bbdd_info": "Databases: Planning and managing databases with SQL / Mongo DB",
+  "tm_technical_programming_info": "Programming: Introduction to Java / C # Programming",
+  "tm_technical_xml_info": "Markup languages and information management systems: introduction to web development (HTML / CSS / JS) and XML."
+}
